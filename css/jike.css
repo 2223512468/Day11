@@ -1,0 +1,269 @@
+body {
+	margin: 0;
+}
+
+
+
+html,
+body,
+.warpper {
+	width: 100%;
+	height: 100%;
+	min-height: 1000px;
+}
+
+/*头部样式*/
+.header {
+	width: 100%;
+	height: 115px;
+	background: #FFF;
+	box-shadow: 2px 2px 2px 2px #F4F4F4;
+}
+
+/*头部搜索样式*/
+.wrap {
+	width: 1000px;
+	height: 115px;
+	margin: auto;
+	position: relative;
+}
+
+.wrap-search {
+	min-width: 1200px;
+	min-height: 70px;
+}
+
+.wrap-search .logo {
+	width: 113px;
+	height: 42px;
+	margin-top: 16px;
+}
+
+.wrap-search-form {
+	display: inline-block;
+	position: relative;
+	margin-left: 150px;
+}
+
+.search-text {
+	width: 360px;
+	height: 26px;
+	float: left;
+	border: 1px solid #E4E4E4;
+	padding: 8px 55px 8px 10px;
+	outline: none;
+}
+
+.search-btn {
+	width: 44px;
+	height: 44px;
+	background: url(../img/search_bg.png);
+	float: left;
+	border: 1px solid #e1edf7;
+	border-left: none;
+}
+
+.search-btn:hover {
+	width: 44px;
+	height: 44px;
+	background: url(../img/search_bg2.png);
+	float: left;
+	border: 1px solid #e1edf7;
+	border-left: none;
+}
+
+.hot-words {
+	position: absolute;
+	display: block;
+	top: 10px;
+	right: 60px;
+}
+
+.hot-words a:hover {
+	background: lightgray;
+	padding: 3px;
+}
+
+.loginbox {
+	display: inline-block;
+	height: 20px;
+	bottom: 20px;
+	font-size: 14px;
+	margin-left: 50px;
+	position: relative;
+}
+
+.loginbox img {
+	width: 15px;
+	height: 15px;
+	margin-bottom: -3px;
+}
+
+.loginbox a {
+	color: #000;
+	text-decoration: none;
+}
+
+.loginbox a:hover,
+.loginbox a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+.loading-length {
+	width: 100%;
+	height: 2px;
+	background: #33AF55;
+	position: absolute;
+	top: 70px;
+}
+
+.navpositon {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 72px;
+}
+
+.navpositon .nav {
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+.navpositon .nav a {
+	color: #000;
+	font-size: 14px;
+	margin-right: 40px;
+	text-decoration: none;
+}
+
+.navpositon .nav a:hover {
+	color: #33AF55;
+}
+
+.nav .navbox {
+	line-height: 40px;
+	height: 40px;
+	width: auto;
+	display: inline-block;
+}
+
+.navpanel {
+	display: none;
+	list-style-type: none;
+	width: 1000px;
+	min-width: 1000px;
+	border: 1px solid #9D9E9E;
+	position: absolute;
+	margin: 0 auto;
+	background: white;
+	z-index: 100;
+}
+
+.navbox:hover .navpanel {
+	display: block;
+
+}
+
+.panel-item {
+	list-style-type: none;
+	float: left;
+	width: 200px;
+}
+
+.panel-item li {
+	list-style-type: none;
+}
+
+.user-need {
+	float: right;
+	margin-right: 10px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+/*中间内容布局*/
+.content {
+	width: 100%;
+	height: auto;
+}
+
+/*课程内容布局*/
+.content .lesson {
+	width: 1000px;
+	min-width: 1000px;
+	height: 375px;
+	margin: 0 auto;
+}
+
+/*课程内容导航*/
+.lesson .lesson-classfiy-nav {
+	width: 208px;
+	height: 375px;
+	border: 1px solid #C7C7C7;
+	border-top: 2px solid #35B558;
+	position: absolute;
+}
+
+.lesson .lesson-classfiy-nav ul {
+	padding-left: 10px;
+}
+
+.lesson .lesson-classfiy-nav ul li {
+	list-style: none;
+	height: 35px;
+	line-height: 35px;
+	border-top: 1px solid #E4E4E4;
+}
+
+.lesson .lesson-classfiy-nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+}
+
+.lesson .lesson-classfiy-nav ul li a:hover {
+	color: #35B759;
+}
+
+.lesson-classfiy-nav li:hover .lesson-list-show {
+	display: block;
+}
+
+.lesson-list-show {
+	width: 400px;
+	height: auto;
+	position: absolute;
+	background: white;
+	padding-left: 12px;
+	left: 210px;
+	top: 0px;
+	z-index: 60;
+	display: none;
+	border: 1px solid #F4F4F4;
+}
+
+.cf {
+	width: 400px;
+	height: auto;
+	border-top: 1px solid #F5F5F5;
+	margin-bottom: 10px;
+	position: relative;
+	left: -40px;
+}
+
+.lesson-classfiy-nav .xian-g {
+	color: #C7C7C7;
+	padding: 0 5px;
+}
+
+.lesson-center-focus {
+	width: 558px;
+	height: 373px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 220px;
+	z-index: 1;
+}
